@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0A92B2264191F6005997DC /* ShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A92B1264191F6005997DC /* ShopTableViewController.swift */; };
+		8E0A93582648562C005997DC /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A93562648562B005997DC /* ShoppingTableViewCell.swift */; };
+		8E0A93592648562C005997DC /* ShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0A93572648562C005997DC /* ShoppingTableViewCell.xib */; };
+		8E25673626400A310094BBC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E25673526400A310094BBC7 /* GoogleService-Info.plist */; };
+		8E256739264010710094BBC7 /* CollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E256738264010710094BBC7 /* CollectionViewViewController.swift */; };
+		8E405337263DB921001838D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E405336263DB921001838D3 /* AppDelegate.swift */; };
+		8E405339263DB921001838D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E405338263DB921001838D3 /* SceneDelegate.swift */; };
+		8E40533B263DB921001838D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E40533A263DB921001838D3 /* ViewController.swift */; };
+		8E40533E263DB921001838D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E40533C263DB921001838D3 /* Main.storyboard */; };
+		8E405341263DB921001838D3 /* TamantomanApp2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E40533F263DB921001838D3 /* TamantomanApp2.xcdatamodeld */; };
+		8E405343263DB927001838D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E405342263DB927001838D3 /* Assets.xcassets */; };
+		8E405346263DB927001838D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E405344263DB927001838D3 /* LaunchScreen.storyboard */; };
+		8E405357263DBC22001838D3 /* VegetablesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E405355263DBC22001838D3 /* VegetablesCollectionViewCell.xib */; };
+		8E405358263DBC22001838D3 /* VegetablesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E405356263DBC22001838D3 /* VegetablesCollectionViewCell.swift */; };
+		8E667AAC264AACC0007EA540 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E667AAB264AACBF007EA540 /* PaymentViewController.swift */; };
+		8E84E311264926A000D75D47 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E84E310264926A000D75D47 /* ProfilePageViewController.swift */; };
+		8E84E348264A77D300D75D47 /* ProfilePage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E84E347264A77D300D75D47 /* ProfilePage2ViewController.swift */; };
+		9853036112B7A4B7AD7B6082 /* Pods_TomatoMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96693A25107E875862B57324 /* Pods_TomatoMan.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C8F7B42220E78FBBF23B4E3 /* Pods-TomatoMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoMan.release.xcconfig"; path = "Target Support Files/Pods-TomatoMan/Pods-TomatoMan.release.xcconfig"; sourceTree = "<group>"; };
+		8E0A92B1264191F6005997DC /* ShopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewController.swift; sourceTree = "<group>"; };
+		8E0A93562648562B005997DC /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
+		8E0A93572648562C005997DC /* ShoppingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingTableViewCell.xib; sourceTree = "<group>"; };
+		8E25673526400A310094BBC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E256738264010710094BBC7 /* CollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewViewController.swift; sourceTree = "<group>"; };
+		8E405333263DB921001838D3 /* TomatoMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E405336263DB921001838D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E405338263DB921001838D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E40533A263DB921001838D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E40533D263DB921001838D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E405340263DB921001838D3 /* TamantomanApp2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TamantomanApp2.xcdatamodel; sourceTree = "<group>"; };
+		8E405342263DB927001838D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E405345263DB927001838D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E405347263DB927001838D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E405355263DBC22001838D3 /* VegetablesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VegetablesCollectionViewCell.xib; sourceTree = "<group>"; };
+		8E405356263DBC22001838D3 /* VegetablesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VegetablesCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E667AAB264AACBF007EA540 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		8E84E310264926A000D75D47 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		8E84E347264A77D300D75D47 /* ProfilePage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage2ViewController.swift; sourceTree = "<group>"; };
+		9280274B05998DC9530AED97 /* Pods-TomatoMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoMan.debug.xcconfig"; path = "Target Support Files/Pods-TomatoMan/Pods-TomatoMan.debug.xcconfig"; sourceTree = "<group>"; };
+		96693A25107E875862B57324 /* Pods_TomatoMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TomatoMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E405330263DB921001838D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9853036112B7A4B7AD7B6082 /* Pods_TomatoMan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BD3F796083B846997FEDE87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9280274B05998DC9530AED97 /* Pods-TomatoMan.debug.xcconfig */,
+				0C8F7B42220E78FBBF23B4E3 /* Pods-TomatoMan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E40532A263DB920001838D3 = {
+			isa = PBXGroup;
+			children = (
+				8E405335263DB921001838D3 /* TomatoMan */,
+				8E405334263DB921001838D3 /* Products */,
+				8BD3F796083B846997FEDE87 /* Pods */,
+				F8634FF2E65DF528179BB237 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E405334263DB921001838D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E405333263DB921001838D3 /* TomatoMan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E405335263DB921001838D3 /* TomatoMan */ = {
+			isa = PBXGroup;
+			children = (
+				8E25673526400A310094BBC7 /* GoogleService-Info.plist */,
+				8E405336263DB921001838D3 /* AppDelegate.swift */,
+				8E405338263DB921001838D3 /* SceneDelegate.swift */,
+				8E40533A263DB921001838D3 /* ViewController.swift */,
+				8E40533C263DB921001838D3 /* Main.storyboard */,
+				8E405342263DB927001838D3 /* Assets.xcassets */,
+				8E405344263DB927001838D3 /* LaunchScreen.storyboard */,
+				8E405347263DB927001838D3 /* Info.plist */,
+				8E40533F263DB921001838D3 /* TamantomanApp2.xcdatamodeld */,
+				8E405356263DBC22001838D3 /* VegetablesCollectionViewCell.swift */,
+				8E405355263DBC22001838D3 /* VegetablesCollectionViewCell.xib */,
+				8E256738264010710094BBC7 /* CollectionViewViewController.swift */,
+				8E0A93562648562B005997DC /* ShoppingTableViewCell.swift */,
+				8E0A93572648562C005997DC /* ShoppingTableViewCell.xib */,
+				8E0A92B1264191F6005997DC /* ShopTableViewController.swift */,
+				8E84E310264926A000D75D47 /* ProfilePageViewController.swift */,
+				8E84E347264A77D300D75D47 /* ProfilePage2ViewController.swift */,
+				8E667AAB264AACBF007EA540 /* PaymentViewController.swift */,
+			);
+			path = TomatoMan;
+			sourceTree = "<group>";
+		};
+		F8634FF2E65DF528179BB237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96693A25107E875862B57324 /* Pods_TomatoMan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E405332263DB921001838D3 /* TomatoMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E40534A263DB927001838D3 /* Build configuration list for PBXNativeTarget "TomatoMan" */;
+			buildPhases = (
+				3F5A993B7EAEB554ABE4C2AC /* [CP] Check Pods Manifest.lock */,
+				8E40532F263DB921001838D3 /* Sources */,
+				8E405330263DB921001838D3 /* Frameworks */,
+				8E405331263DB921001838D3 /* Resources */,
+				6288B9E18CE28B7651B935EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomatoMan;
+			productName = TamantomanApp2;
+			productReference = 8E405333263DB921001838D3 /* TomatoMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E40532B263DB921001838D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8E405332263DB921001838D3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8E40532E263DB921001838D3 /* Build configuration list for PBXProject "TomatoMan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E40532A263DB920001838D3;
+			productRefGroup = 8E405334263DB921001838D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E405332263DB921001838D3 /* TomatoMan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E405331263DB921001838D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E405357263DBC22001838D3 /* VegetablesCollectionViewCell.xib in Resources */,
+				8E405346263DB927001838D3 /* LaunchScreen.storyboard in Resources */,
+				8E25673626400A310094BBC7 /* GoogleService-Info.plist in Resources */,
+				8E405343263DB927001838D3 /* Assets.xcassets in Resources */,
+				8E40533E263DB921001838D3 /* Main.storyboard in Resources */,
+				8E0A93592648562C005997DC /* ShoppingTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F5A993B7EAEB554ABE4C2AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TomatoMan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6288B9E18CE28B7651B935EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TomatoMan/Pods-TomatoMan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TomatoMan/Pods-TomatoMan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TomatoMan/Pods-TomatoMan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E40532F263DB921001838D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0A92B2264191F6005997DC /* ShopTableViewController.swift in Sources */,
+				8E405358263DBC22001838D3 /* VegetablesCollectionViewCell.swift in Sources */,
+				8E40533B263DB921001838D3 /* ViewController.swift in Sources */,
+				8E0A93582648562C005997DC /* ShoppingTableViewCell.swift in Sources */,
+				8E84E348264A77D300D75D47 /* ProfilePage2ViewController.swift in Sources */,
+				8E405337263DB921001838D3 /* AppDelegate.swift in Sources */,
+				8E667AAC264AACC0007EA540 /* PaymentViewController.swift in Sources */,
+				8E84E311264926A000D75D47 /* ProfilePageViewController.swift in Sources */,
+				8E405341263DB921001838D3 /* TamantomanApp2.xcdatamodeld in Sources */,
+				8E405339263DB921001838D3 /* SceneDelegate.swift in Sources */,
+				8E256739264010710094BBC7 /* CollectionViewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E40533C263DB921001838D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E40533D263DB921001838D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E405344263DB927001838D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E405345263DB927001838D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E405348263DB927001838D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E405349263DB927001838D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E40534B263DB927001838D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9280274B05998DC9530AED97 /* Pods-TomatoMan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/TomatoMan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codebetter.TomatoMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E40534C263DB927001838D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8F7B42220E78FBBF23B4E3 /* Pods-TomatoMan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/TomatoMan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codebetter.TomatoMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E40532E263DB921001838D3 /* Build configuration list for PBXProject "TomatoMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E405348263DB927001838D3 /* Debug */,
+				8E405349263DB927001838D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E40534A263DB927001838D3 /* Build configuration list for PBXNativeTarget "TomatoMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E40534B263DB927001838D3 /* Debug */,
+				8E40534C263DB927001838D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E40533F263DB921001838D3 /* TamantomanApp2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E405340263DB921001838D3 /* TamantomanApp2.xcdatamodel */,
+			);
+			currentVersion = 8E405340263DB921001838D3 /* TamantomanApp2.xcdatamodel */;
+			path = TamantomanApp2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E40532B263DB921001838D3 /* Project object */;
+}
