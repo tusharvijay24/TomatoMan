@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TomatoMan/Shopping+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:TomatoMan/Shopping+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:TomatoMan.xcodeproj">
    </FileRef>
    <FileRef

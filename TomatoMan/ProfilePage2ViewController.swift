@@ -7,53 +7,37 @@
 
 import UIKit
 
-class ProfilePage2ViewController: UIViewController
-{
-    @IBOutlet weak var namefield1: UITextField!
-    @IBOutlet weak var mobilefield1: UITextField!
-    @IBOutlet weak var addressfield1: UITextField!
-    @IBOutlet weak var landmarkfield1: UITextField!
-    var viewcontroller2:ProfilePageViewController = ProfilePageViewController()
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
+class ProfilePage2ViewController: UIViewController {
 
-        // Do any additional setup after loading the view.
-        
-        
+    @IBOutlet weak var nameField1: UITextField!
+    @IBOutlet weak var mobileField1: UITextField!
+    @IBOutlet weak var addressField1: UITextField!
+    @IBOutlet weak var landmarkField1: UITextField!
+
+    var viewController2: ProfilePageViewController?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
+
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
         let value1 = UserDefaults.standard.string(forKey: "name")
         let value2 = UserDefaults.standard.string(forKey: "contact")
         let value3 = UserDefaults.standard.string(forKey: "address")
         let value4 = UserDefaults.standard.string(forKey: "landmark")
         
-        if value1 != nil
-        {
-            namefield1.text = "\(value1!)"
-        }
-        if value2 != nil
-        {
-            mobilefield1.text = "\(value2!)"
-        }
-        if value3 != nil
-        {
-            addressfield1.text = "\(value3!)"
-        }
-        if value4 != nil
-        {
-            landmarkfield1.text = "\(value4!)"
-        }
+        nameField1.text = value1 ?? ""
+        mobileField1.text = value2 ?? ""
+        addressField1.text = value3 ?? ""
+        landmarkField1.text = value4 ?? ""
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if let destinationVC = segue.destination as? ProfilePageViewController {
+            viewController2 = destinationVC
+        }
     }
-    */
-
 }

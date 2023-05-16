@@ -7,61 +7,49 @@
 
 import UIKit
 
-class ProfilePageViewController: UIViewController
-{
+import UIKit
+
+class ProfilePageViewController: UIViewController {
 
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var mobileField: UITextField!
     @IBOutlet weak var addressField: UITextField!
     @IBOutlet weak var landmarkField: UITextField!
-    
-    override func viewDidLoad()
-    {
+
+    override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        
-       
-       
-
     }
-   
-    
-    
 
-    @IBAction func Orderaction(_ sender: Any)
-    {
-        UserDefaults.standard.set(nameField.text!, forKey: "name")
-        UserDefaults.standard.set(mobileField.text!, forKey: "contact")
-        UserDefaults.standard.set(addressField.text!, forKey: "address")
-        UserDefaults.standard.set(landmarkField.text!, forKey: "landmark")
+    @IBAction func orderAction(_ sender: Any) {
+        guard let name = nameField.text, !name.isEmpty,
+              let contact = mobileField.text, !contact.isEmpty,
+              let address = addressField.text, !address.isEmpty,
+              let landmark = landmarkField.text, !landmark.isEmpty else {
+            let alert = UIAlertController(title: "Missing Information", message: "Please fill in all fields", preferredStyle: .alert)
+            let okButton = UIAlertAction(title: "OK", style: .default)
+            alert.addAction(okButton)
+            present(alert, animated: true, completion: nil)
+            return
+        }
+        
+        UserDefaults.standard.set(name, forKey: "name")
+        UserDefaults.standard.set(contact, forKey: "contact")
+        UserDefaults.standard.set(address, forKey: "address")
+        UserDefaults.standard.set(landmark, forKey: "landmark")
         
         let alert = UIAlertController(title: "Order", message: "Order Placed Successfully", preferredStyle: .alert)
-        let okButton = UIAlertAction(title: "OK", style: .default)
-        {
-            (action) -> Void
-            in
-            let paymentCon : PaymentViewController = self.storyboard?.instantiateViewController(withIdentifier: "PaymentViewController") as! PaymentViewController
-            self.navigationController?.pushViewController(paymentCon, animated: true)
+        let okButton = UIAlertAction(title: "OK", style: .default) { [weak self] (_) in
+            let paymentCon = self?.storyboard?.instantiateViewController(withIdentifier: "PaymentViewController") as! PaymentViewController
+            self?.navigationController?.pushViewController(paymentCon, animated: true)
         }
         alert.addAction(okButton)
-        self.present(alert, animated: true, completion: nil)
-        
-        nameField.text! = ""
-        mobileField.text! = ""
-        addressField.text! = ""
-        landmarkField.text! = ""
+        present(alert, animated: true) {
+            self.nameField.text = ""
+            self.mobileField.text = ""
+            self.addressField.text = ""
+            self.landmarkField.text = ""
+        }
     }
- 
-    
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }

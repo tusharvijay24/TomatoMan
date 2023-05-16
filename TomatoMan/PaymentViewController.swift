@@ -8,67 +8,48 @@
 import UIKit
 
 
-class PaymentViewController: UIViewController
-{
+import UIKit
+
+class PaymentViewController: UIViewController {
 
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var modeLabel: UILabel!
     @IBOutlet weak var statusLabel: UILabel!
-    @IBOutlet weak var totallLabel1: UILabel!
-    
-    
+    @IBOutlet weak var totalLabel1: UILabel!
+
     var date = Date()
-    var paymentmode = "Pay On Delivery"
+    var paymentMode = "Pay On Delivery"
     var status = "Pending"
-    var total:Float = 0
-    
-    
-    
-    override func viewDidLoad()
-    {
+    var total: Float = 0
+
+    override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-       
-        totallLabel1.text = "\(total)"
-        modeLabel.text = "\(paymentmode)"
-        statusLabel.text = "\(status)"
-        
-        
+        totalLabel1.text = "\(total)"
+        modeLabel.text = paymentMode
+        statusLabel.text = status
+
         let formatter = DateFormatter()
-        formatter.dateFormat = "dd-MM-yyyy"
-        
-        let strDate = formatter.string(from: date)
-        formatter.dateFormat = "hh:mm"
-        let strTime = formatter.string(from: date)
-        print(strDate,strTime)
-        dateLabel.text = "\(strDate),\(strTime)"
-        
+        formatter.dateFormat = "dd-MM-yyyy, hh:mm"
+        let strDateTime = formatter.string(from: date)
+        dateLabel.text = strDateTime
     }
-    override func viewDidAppear(_ animated: Bool)
-    {
-        self.navigationController?.isNavigationBarHidden = true
-    }
-    override func viewWillDisappear(_ animated: Bool)
-    {
-        self.navigationController?.isNavigationBarHidden = false
-    }
-    
-    @IBAction func ShopmoreAction(_ sender: Any)
-    {
-        let collectionCon = self.storyboard?.instantiateViewController(withIdentifier: "CollectionViewViewController") as! CollectionViewViewController
-        self.navigationController?.pushViewController(collectionCon, animated: true)
-    }
-    
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        navigationController?.isNavigationBarHidden = true
     }
-    */
 
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.isNavigationBarHidden = false
+    }
+
+    @IBAction func shopMoreAction(_ sender: Any) {
+        let collectionCon = storyboard?.instantiateViewController(withIdentifier: "CollectionViewViewController") as! VegetableCollectionViewController
+        navigationController?.pushViewController(collectionCon, animated: true)
+    }
+
+    
 }

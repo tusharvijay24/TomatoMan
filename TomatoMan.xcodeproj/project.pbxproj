@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AD5EA92A13A543002ACEAF /* TamatoMan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18AD5EA72A13A543002ACEAF /* TamatoMan.xcdatamodeld */; };
 		8E0A92B2264191F6005997DC /* ShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A92B1264191F6005997DC /* ShopTableViewController.swift */; };
 		8E0A93582648562C005997DC /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A93562648562B005997DC /* ShoppingTableViewCell.swift */; };
 		8E0A93592648562C005997DC /* ShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0A93572648562C005997DC /* ShoppingTableViewCell.xib */; };
 		8E25673626400A310094BBC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E25673526400A310094BBC7 /* GoogleService-Info.plist */; };
-		8E256739264010710094BBC7 /* CollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E256738264010710094BBC7 /* CollectionViewViewController.swift */; };
+		8E256739264010710094BBC7 /* VegetableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E256738264010710094BBC7 /* VegetableCollectionViewController.swift */; };
 		8E405337263DB921001838D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E405336263DB921001838D3 /* AppDelegate.swift */; };
 		8E405339263DB921001838D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E405338263DB921001838D3 /* SceneDelegate.swift */; };
-		8E40533B263DB921001838D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E40533A263DB921001838D3 /* ViewController.swift */; };
+		8E40533B263DB921001838D3 /* VegetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E40533A263DB921001838D3 /* VegetableViewController.swift */; };
 		8E40533E263DB921001838D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E40533C263DB921001838D3 /* Main.storyboard */; };
-		8E405341263DB921001838D3 /* TamantomanApp2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E40533F263DB921001838D3 /* TamantomanApp2.xcdatamodeld */; };
 		8E405343263DB927001838D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E405342263DB927001838D3 /* Assets.xcassets */; };
 		8E405346263DB927001838D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E405344263DB927001838D3 /* LaunchScreen.storyboard */; };
 		8E405357263DBC22001838D3 /* VegetablesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E405355263DBC22001838D3 /* VegetablesCollectionViewCell.xib */; };
@@ -29,17 +29,17 @@
 
 /* Begin PBXFileReference section */
 		0C8F7B42220E78FBBF23B4E3 /* Pods-TomatoMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoMan.release.xcconfig"; path = "Target Support Files/Pods-TomatoMan/Pods-TomatoMan.release.xcconfig"; sourceTree = "<group>"; };
+		18AD5EA82A13A543002ACEAF /* TamatoMan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TamatoMan.xcdatamodel; sourceTree = "<group>"; };
 		8E0A92B1264191F6005997DC /* ShopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewController.swift; sourceTree = "<group>"; };
 		8E0A93562648562B005997DC /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 		8E0A93572648562C005997DC /* ShoppingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingTableViewCell.xib; sourceTree = "<group>"; };
 		8E25673526400A310094BBC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8E256738264010710094BBC7 /* CollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewViewController.swift; sourceTree = "<group>"; };
+		8E256738264010710094BBC7 /* VegetableCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableCollectionViewController.swift; sourceTree = "<group>"; };
 		8E405333263DB921001838D3 /* TomatoMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E405336263DB921001838D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E405338263DB921001838D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E40533A263DB921001838D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E40533A263DB921001838D3 /* VegetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableViewController.swift; sourceTree = "<group>"; };
 		8E40533D263DB921001838D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E405340263DB921001838D3 /* TamantomanApp2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TamantomanApp2.xcdatamodel; sourceTree = "<group>"; };
 		8E405342263DB927001838D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E405345263DB927001838D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E405347263DB927001838D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,21 +97,21 @@
 				8E25673526400A310094BBC7 /* GoogleService-Info.plist */,
 				8E405336263DB921001838D3 /* AppDelegate.swift */,
 				8E405338263DB921001838D3 /* SceneDelegate.swift */,
-				8E40533A263DB921001838D3 /* ViewController.swift */,
-				8E40533C263DB921001838D3 /* Main.storyboard */,
-				8E405342263DB927001838D3 /* Assets.xcassets */,
-				8E405344263DB927001838D3 /* LaunchScreen.storyboard */,
-				8E405347263DB927001838D3 /* Info.plist */,
-				8E40533F263DB921001838D3 /* TamantomanApp2.xcdatamodeld */,
 				8E405356263DBC22001838D3 /* VegetablesCollectionViewCell.swift */,
 				8E405355263DBC22001838D3 /* VegetablesCollectionViewCell.xib */,
-				8E256738264010710094BBC7 /* CollectionViewViewController.swift */,
 				8E0A93562648562B005997DC /* ShoppingTableViewCell.swift */,
 				8E0A93572648562C005997DC /* ShoppingTableViewCell.xib */,
+				8E40533A263DB921001838D3 /* VegetableViewController.swift */,
+				8E256738264010710094BBC7 /* VegetableCollectionViewController.swift */,
 				8E0A92B1264191F6005997DC /* ShopTableViewController.swift */,
 				8E84E310264926A000D75D47 /* ProfilePageViewController.swift */,
 				8E84E347264A77D300D75D47 /* ProfilePage2ViewController.swift */,
 				8E667AAB264AACBF007EA540 /* PaymentViewController.swift */,
+				8E40533C263DB921001838D3 /* Main.storyboard */,
+				8E405344263DB927001838D3 /* LaunchScreen.storyboard */,
+				8E405342263DB927001838D3 /* Assets.xcassets */,
+				8E405347263DB927001838D3 /* Info.plist */,
+				18AD5EA72A13A543002ACEAF /* TamatoMan.xcdatamodeld */,
 			);
 			path = TomatoMan;
 			sourceTree = "<group>";
@@ -243,15 +243,15 @@
 			files = (
 				8E0A92B2264191F6005997DC /* ShopTableViewController.swift in Sources */,
 				8E405358263DBC22001838D3 /* VegetablesCollectionViewCell.swift in Sources */,
-				8E40533B263DB921001838D3 /* ViewController.swift in Sources */,
+				18AD5EA92A13A543002ACEAF /* TamatoMan.xcdatamodeld in Sources */,
+				8E40533B263DB921001838D3 /* VegetableViewController.swift in Sources */,
 				8E0A93582648562C005997DC /* ShoppingTableViewCell.swift in Sources */,
 				8E84E348264A77D300D75D47 /* ProfilePage2ViewController.swift in Sources */,
 				8E405337263DB921001838D3 /* AppDelegate.swift in Sources */,
 				8E667AAC264AACC0007EA540 /* PaymentViewController.swift in Sources */,
 				8E84E311264926A000D75D47 /* ProfilePageViewController.swift in Sources */,
-				8E405341263DB921001838D3 /* TamantomanApp2.xcdatamodeld in Sources */,
 				8E405339263DB921001838D3 /* SceneDelegate.swift in Sources */,
-				8E256739264010710094BBC7 /* CollectionViewViewController.swift in Sources */,
+				8E256739264010710094BBC7 /* VegetableCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92C87P8NQ;
 				INFOPLIST_FILE = "$(SRCROOT)/TomatoMan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -419,6 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92C87P8NQ;
 				INFOPLIST_FILE = "$(SRCROOT)/TomatoMan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,13 +457,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8E40533F263DB921001838D3 /* TamantomanApp2.xcdatamodeld */ = {
+		18AD5EA72A13A543002ACEAF /* TamatoMan.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8E405340263DB921001838D3 /* TamantomanApp2.xcdatamodel */,
+				18AD5EA82A13A543002ACEAF /* TamatoMan.xcdatamodel */,
 			);
-			currentVersion = 8E405340263DB921001838D3 /* TamantomanApp2.xcdatamodel */;
-			path = TamantomanApp2.xcdatamodeld;
+			currentVersion = 18AD5EA82A13A543002ACEAF /* TamatoMan.xcdatamodel */;
+			path = TamatoMan.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
